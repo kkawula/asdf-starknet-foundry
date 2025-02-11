@@ -26,7 +26,7 @@ asdf plugin add starknet-foundry https://github.com/foundry-rs/asdf-starknet-fou
 Show all installable versions:
 
 ```shell
-asdf list-all starknet-foundry
+asdf list all starknet-foundry
 ```
 
 Install latest version:
@@ -44,13 +44,13 @@ asdf install starknet-foundry 0.8.2
 Set a version globally (in your `~/.tool-versions` file):
 
 ```shell
-asdf global starknet-foundry latest
+asdf set --home starknet-foundry latest
 ```
 
 Set a version locally:
 
 ```shell
-asdf local starknet-foundry latest
+asdf set starknet-foundry latest
 ```
 
 Now snforge and sncast commands are available:
